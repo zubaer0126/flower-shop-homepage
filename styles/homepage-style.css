@@ -10,7 +10,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-/* first part styles */
+/* first part styles start*/
 .first-part {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
@@ -19,6 +19,7 @@ body {
     text-align: left;
     padding: 50px 240px 0px 240px;
     gap: 100px;
+    margin-bottom: 180px;
 }
 
 .first-part-heading {
@@ -49,3 +50,102 @@ body {
     color: white;
     cursor: pointer;
 }
+
+/* first part styles end*/
+
+/* second part styles start */
+
+.our-featured-sec {}
+
+.our-featured-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.our-featured-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.second-sec-pics-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 0px 240px 0px 240px;
+
+}
+
+.First-box {
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    background-size: 450px 530px;
+    padding: 80px 50px 0px 50px;
+    margin: 30px;
+
+}
+
+.first-img {}
+
+.Second-box {
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    background-size: 450px 530px;
+    padding: 80px 50px 0px 50px;
+    margin: 30px;
+}
+
+.second-img {}
+
+
+
+.Third-box {
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    background-size: 450px 530px;
+    padding: 80px 70px 0px 70px;
+    margin: 30px;
+
+}
+
+.third-img {
+    /* padding: 80px 70px 0px 70px; */
+}
+
+.figure-tag {
+    display: flex;
+    gap: 400px;
+    margin-left: 350px;
+    margin-right: 330px;
+    margin-bottom: 130px;
+}
+
+/* Third part styles start */
+.third-section-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-left: 240px;
+    margin-right: 240px;
+    padding-left: 175px;
+    padding-right: 175px;
+    padding: 50px;
+    margin-bottom: 130px;
+
+/* Third part */
+}
+/* .third-section-cmn{
+    justify-content: center;
+    align-items: center;
+} */

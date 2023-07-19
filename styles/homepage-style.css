@@ -1,0 +1,51 @@
+/* universal style */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* common shared font */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* first part styles */
+.first-part {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    padding: 50px 240px 0px 240px;
+    gap: 100px;
+}
+
+.first-part-heading {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    padding-bottom: 35px;
+
+}
+
+.first-part-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.first-part-image {
+    width: 635px;
+    height: 800px;
+}
+
+.mainButton {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
